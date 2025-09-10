@@ -22,6 +22,7 @@ jobs:
           pip install pytest
 
       - name: Lancer les tests
+        working-directory: src
         run: |
-          pytest tests/test_calculator.py
+          python -m pytest
 
