@@ -38,4 +38,3 @@ def test_division():
     assert my_calculator.division(10, 2) == 5
     assert my_calculator.division(10, 0) == "Erreur : division par zéro"
     assert my_calculator.division(-6, 2) == -3
-# TODO: ajoutez les tests
